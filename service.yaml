@@ -9,4 +9,3 @@ spec:
   ports:
     - port: 3000         # The port that the service will expose
       targetPort: 3000   # The port on the container that the service should forward to
-      nodePort: 30001    # Optional: Specify a port in the range 30000-32767
