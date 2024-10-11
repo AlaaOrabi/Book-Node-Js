@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: book-node-js
-        image: alaa044/book-node-js:latest
+        image: zeinab817/nodejs-app:v1
         ports:
         - containerPort: 3000
         command: ["sh", "-c", "sleep 100 && node server.js"]
