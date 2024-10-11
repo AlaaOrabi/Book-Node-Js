@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: book-node-js-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: book-node-js
   ports:
